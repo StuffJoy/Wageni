@@ -33,14 +33,40 @@ main {
     margin: 0 auto;
 }
 
-main ol {
-    list-style-type: decimal;
-    padding-left: 1.5rem;
+section {
+    margin-bottom: 2rem;
 }
 
-main ol li {
+form label {
+    font-size: 1.1rem;
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+form input, form select, form button {
+    font-size: 1rem;
+    margin-top: 0.5rem;
     margin-bottom: 1rem;
+    padding: 0.5rem;
+}
+
+form button {
+    background-color: #2c3e50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #34495e;
+}
+
+/* Result */
+#result {
     font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 1rem;
+    color: #2c3e50;
 }
 
 /* Footer */

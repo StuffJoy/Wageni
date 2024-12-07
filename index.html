@@ -25,8 +25,60 @@
                 <li>Thou shalt learn how to kiss effectively; thou who cannot kiss, cannot... well.</li>
                 <li>Thou shalt not start conversations with me after 10 pm, for that is bedtime.</li>
                 <li>Thou shalt not have my phone password.</li>
-                <li>Thou shalt not like someone before 21 days.</li>
+                <li>Thou shalt not like someone before 30 days.</li>
+                <li>Thou shalt not mistake a crush for a like, these are not the same and thou must not treat them as such.</li>
+                <li>Thou shalt listen and heed my words lovingly and eagerly, for they are words of wisdom.</li>
             </ol>
+        </section>
+
+        <!-- Interactive Love Check Section -->
+        <section id="love-check">
+            <h2>Interactive Love Check</h2>
+            <form id="love-check-form">
+                <label>
+                    How many days have you known the person? 
+                    <input type="number" id="days-known" min="0" required>
+                </label><br><br>
+
+                <label>
+                    Has the person passed the vibe check? 
+                    <select id="vibe-check">
+                        <option value="yes">Yes</option>
+                        <option value="no">No</option>
+                        <option value="unsure">Unsure</option>
+                    </select>
+                </label><br><br>
+
+                <label>
+                    Is there romantic chemistry? 
+                    <select id="chemistry">
+                        <option value="yes">Yes</option>
+                        <option value="no">No</option>
+                        <option value="unsure">Unsure</option>
+                    </select>
+                </label><br><br>
+
+                <label>
+                    Are you comfortable with the person? 
+                    <select id="comfort">
+                        <option value="yes">Yes</option>
+                        <option value="no">No</option>
+                        <option value="unsure">Unsure</option>
+                    </select>
+                </label><br><br>
+
+                <label>
+                    Is the timing right? 
+                    <select id="timing">
+                        <option value="yes">Yes</option>
+                        <option value="no">No</option>
+                        <option value="unsure">Unsure</option>
+                    </select>
+                </label><br><br>
+
+                <button type="button" onclick="evaluateLove()">Check</button>
+            </form>
+            <p id="result"></p>
         </section>
     </main>
     <footer>
