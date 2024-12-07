@@ -1,0 +1,53 @@
+/* General styles */
+body {
+    font-family: 'Georgia', serif;
+    background-color: #fdf6e3;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+header .subtitle {
+    font-style: italic;
+    font-size: 1rem;
+    margin-top: 0.5rem;
+}
+
+/* Main content */
+main {
+    padding: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+main ol {
+    list-style-type: decimal;
+    padding-left: 1.5rem;
+}
+
+main ol li {
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
