@@ -7,6 +7,10 @@ body {
     padding: 0;
 }
 
+section ol li {
+    margin-bottom: 1rem; /* Adds space between each list item */
+}
+
 /* Header */
 header {
     background-color: #2c3e50;

@@ -2,8 +2,13 @@ document.addEventListener("DOMContentLoaded", () => {
     const openLightbox = document.getElementById("open-lightbox");
     const closeLightbox = document.getElementById("close-lightbox");
     const lightbox = document.getElementById("lightbox");
+    const form = document.getElementById("love-check-form");
+    const result = document.getElementById("result");
 
     openLightbox.addEventListener("click", () => {
+        // Clear form inputs and result
+        form.reset();
+        result.textContent = "";
         lightbox.classList.add("visible");
     });
 
