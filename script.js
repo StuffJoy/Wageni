@@ -1,3 +1,23 @@
+document.addEventListener("DOMContentLoaded", () => {
+    const openLightbox = document.getElementById("open-lightbox");
+    const closeLightbox = document.getElementById("close-lightbox");
+    const lightbox = document.getElementById("lightbox");
+
+    openLightbox.addEventListener("click", () => {
+        lightbox.classList.add("visible");
+    });
+
+    closeLightbox.addEventListener("click", () => {
+        lightbox.classList.remove("visible");
+    });
+
+    lightbox.addEventListener("click", (event) => {
+        if (event.target === lightbox) {
+            lightbox.classList.remove("visible");
+        }
+    });
+});
+
 function evaluateLove() {
     const daysKnown = parseInt(document.getElementById("days-known").value);
     const vibeCheck = document.getElementById("vibe-check").value;
